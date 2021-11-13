@@ -1,3 +1,129 @@
-# CSE381_Final
+# CSE_381 Final Project 
 
-Developed with Unreal Engine 4
+TODO: 
+
+- Game Logic
+  - Third Person Camera
+  - Room Generation (Random Choice)
+    - Indicator For Rewards (A Symbol or somesort)
+  - Rooms Cleared Per Levels
+  - Loot Table Generation
+    - Multiple Loot Pools and choose based on probability (?)
+  - Switch Between Levels & Rooms
+- HUD
+  - Direction - Actor Component
+  - Timer - Total & Per Room  
+  - HP Bar
+  - Dash CD 
+  - Weapon Model 
+  - Artillery Launcher - Actor Component
+- Map
+  - 4 Rooms 
+    - Traps
+      - Walkover 
+        - Spike 
+        - Land Mine 
+      - Fire
+        - Tick
+      - Toxic Barrel (Destroyed In place)
+- Weapons
+  - Hard Code
+  - Right Click
+    - Hammer
+      - Whirlwind
+    - RPG
+      - Artillery Launcher
+    - Shield
+      - Reflect Bullets
+      - *Bonus Accumalate DMG and burst somehow(?)
+        - Depends on DMG amount
+    - Stickybomb Launcher
+      - SKIP
+    - MP-7
+      - Bullet Storm
+    - Gloves
+      - Thunder Clap
+        - Slows Other Enemis
+- Enemies
+  - Attack
+    - Ranged
+      - Some kind of bullets
+    - Melee
+      - Charge
+      - On Touch
+  - Defense
+    - RGB
+      - Total 100
+      - Possibly Hard Code
+      - (0-255, 0-255, 0-255)
+    - Mass
+      - Affect Knockback Ratio 
+- Models
+  - Enemies
+  - Boss
+  - Traps
+  - Main Character
+- Main Character
+  - Attack
+    - Base DMG
+    - AS
+    - Color Based DMG
+    - Knockback Ratio
+    - Special Ability things
+    - Health Steal
+    - CD For dash + special ability (Use a Struct)
+  - Defense
+    - MS
+    - HP
+    - HP Regen (In Combat Only)
+  - Miscellaneous
+    - Mass
+    - Attribute Slots
+    - Current Attributs (Can be a linked list)
+    - Lives
+    - Timer Decrease 
+- Attributes Design
+  - Main Character
+    - Attack
+      - Base DMG + Specific DMG
+      - Color Based DMG
+      - Attack Speed
+      - Knockback
+      - Health Steal
+    - Defense
+      - HP
+      - HP Regen
+      - Resistance
+      - Movement Speed
+    - Skills (Right Click + Dash)
+      - Reduce CD
+      - Better Effect (Increase duration or something)
+        - RPG
+          - Multiple Warheads
+        - Hammer
+          - Bigger AOE
+        - Shield
+          - Convert Incoming DMG to shield
+        - Stickybomb Launcher
+          - Bigger AOE
+        - MP7
+          - Bigger AOE
+          - More Bullets
+          - Longer Duration
+          - Better Knockback
+        - Gloves
+          - Slow
+          - Radius
+      - Dash
+        - +MS after Dash
+  - Miscellaneous 
+    - Reduce Trap DMG
+    - Increase Mass (Size)
+    - Decrease Mass (Size)
+    - Decrease Timer
+    - Extra Attribut Slots 
+    - Regen HP Per Room
+    - Extra Life
+- *Sound FX & Animation
+- Music
+- Logo 
